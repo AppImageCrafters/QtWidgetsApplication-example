@@ -1,0 +1,15 @@
+[requires]
+libpng/1.6.36@bincrafters/stable
+qt/5.12.3@appimage-conan-community/stable
+
+[build_requires]
+linuxdeploy-plugin-appimage/continuous@appimage-conan-community/stable
+linuxdeploy-plugin-qt/continuous@appimage-conan-community/stable
+appimagetool_installer/11@appimage-conan-community/stable
+
+[generators]
+qmake
+virtualrunenv
+
+[options]
+zlib:shared=True
